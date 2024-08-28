@@ -13,6 +13,6 @@ The PHPBreakoutBinanceBot implements a breakout trading strategy on Binance, des
 ## Usage/Examples
 
 ```bash
-php breakout.php <timeframe 1m, 5m, 15m>
+php breakout.php 1m <timeframe 1m, 5m, 15m>
 ```
 
