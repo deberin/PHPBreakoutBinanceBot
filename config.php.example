@@ -1,0 +1,7 @@
+<?php
+const TESTNET = false;
+$config['api_endpoint'] = TESTNET ? "https://testnet.binance.vision/api" : "https://api.binance.com";
+$config['ws_endpoint'] = TESTNET ? "wss://testnet.binance.vision" : "wss://stream.binance.com:9443";
+$config['ws_endpoint_api'] = TESTNET ? "wss://testnet.binance.vision/ws-api/v3" : "wss://ws-api.binance.com:443/ws-api/v3";
+$config['apiKey'] = TESTNET ? "TESTNET-API-KEY" : "API-KEY";
+$config['secretKey'] = TESTNET ? "TESTNET-SECRET-KEY" : "SECRET-KEY";

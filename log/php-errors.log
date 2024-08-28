@@ -1,0 +1,13 @@
+[09-Jul-2024 20:46:50 Europe/Kiev] PHP Fatal error:  Uncaught Error: Undefined constant "SYMBOL" in D:\webserver\home\breakout\price_change.php:37
+Stack trace:
+#0 {main}
+  thrown in D:\webserver\home\breakout\price_change.php on line 37
+[30-Jul-2024 17:34:34 Europe/Kiev] PHP Warning:  Undefined variable $input in D:\webserver\home\breakout\breakout.php on line 12
+[01-Aug-2024 22:50:01 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PercentageToRate(), 1 passed in D:\webserver\home\breakout\breakout.php on line 234 and exactly 2 expected in D:\webserver\home\breakout\breakout.php:417
+Stack trace:
+#0 D:\webserver\home\breakout\breakout.php(234): PercentageToRate(0.3)
+#1 D:\webserver\home\breakout\vendor\react\event-loop\src\Timer\Timers.php(102): {closure}(Object(React\EventLoop\Timer\Timer))
+#2 D:\webserver\home\breakout\vendor\react\event-loop\src\StreamSelectLoop.php(185): React\EventLoop\Timer\Timers->tick()
+#3 D:\webserver\home\breakout\breakout.php(248): React\EventLoop\StreamSelectLoop->run()
+#4 {main}
+  thrown in D:\webserver\home\breakout\breakout.php on line 417
